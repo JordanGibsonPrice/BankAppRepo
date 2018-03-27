@@ -1,0 +1,12 @@
+2018-03-02 16:34:27 %-5 root:21 - debug
+2018-03-02 16:34:27 %-5 root:12 - Error
+2018-03-02 16:34:27 %-5 root:18 - Info
+2018-03-02 16:34:27 %-5 root:24 - Trace
+2018-03-02 16:34:27 %-5 root:15 - Warn
+2018-03-02 16:34:27 %-5 root:9 - fatal
+2018-03-02 16:35:45 DEBUG root:21 - debug
+2018-03-02 16:35:45 ERROR root:12 - Error
+2018-03-02 16:35:45 INFO  root:18 - Info
+2018-03-02 16:35:45 TRACE root:24 - Trace
+2018-03-02 16:35:45 WARN  root:15 - Warn
+2018-03-02 16:35:45 FATAL root:9 - fatal
