@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="main.css"/>
+<meta charset="UTF-8">
+<title>Administrative View</title>
+<style>
+#myTable tr:nth-child(even) {
+	background-color:#f1f1f1;
+}
+
+#myTable tr:nth-child(odd) {
+	background-color:#fff;
+}
+
+.thanksW3:hover {
+	color:#fff!important;
+	background-color:#000!important;
+}
+
+#myTable th:first-child {
+	padding-left:16px;
+}
+
+#myTable th {
+	padding:8px 8px;
+	display:table-cell;
+	text-align:left;
+	vertical-align:top;
+}
+
+</style>
+</head>
+<body>
+<ul class='nav'>
+            <li><a href="index.html">Apply for Tuition Reimbursement</a></li>
+            <li><a href='Accounting.html'>Create an Account</a></li>
+			<li><a class='active'>Get Information</a></li>
+			<li><a href='LogOut'>Log Out</a></li>
+		</ul>
+<br><br>
+<h2>See Your Applications:</h2> 
+<button onclick="callToTable()">
+Submit
+</button>   
+  <table id="myTable" class="table" style="border-collapse:collapse; border-spacing:0; width:100%; display:table; border:1px solid #ccc;">
+			<tbody id="caseDataTable">
+			<tr class="thanksW3" style="border-bottom:1px solid #ddd;">
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top; padding-left:16px;">empId</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">accNum</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">appNum</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">deptNum</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">empFirst</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">empLast</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">email</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">description</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">expense</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">justification</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">eventDate</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">requestTime</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">grade</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">eventLocus</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">requestDuration</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">eventType</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">standing</th>
+				</tr>
+			</tbody>
+		</table>
+<br><br>
+<h2>See Applications at Your Level</h2>
+<button onclick="callToTable2()">
+Submit
+</button>   
+
+		<table id="caseDataTable2" class="table" style="border-collapse:collapse; border-spacing:0; width:100%; display:table; border:1px solid #ccc;">
+			<thead>
+				<tr class="thanksW3" style="border-bottom:1px solid #ddd;">
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top; padding-left:16px;">empId</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">accNum</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">appNum</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">deptNum</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">empFirst</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">empLast</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">email</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">description</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">expense</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">justification</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">eventDate</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">requestTime</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">grade</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">eventLocus</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">requestDuration</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">eventType</th>
+					<th style="padding:8px 8px; display:table-cell; text-align:left; vertical-align:top;">standing</th>
+				</tr>
+			</thead>
+			<tbody id="caseDataTable">
+
+			</tbody>
+		</table>
+	<br></br>
+<form action="DownloadContent" method="get">
+Enter the application number whose contents you are trying to see: <input type="number" name="appNum" value="appNum">
+<button class="btn btn-success">Download Content</button>
+</form>
+<br></br>
+<table id="demo"></table>
+<p>Approve/decline Applications</p>
+<form action="Updating" method="post">
+<h2>Enter In Your Credentials:</h2>    
+App ID:<input type="number" name="appID"/><br/><br/>
+Decision:<input type="number" name="decision"/><br/><br/>
+<input type="submit" value="check"/>  
+</form>   
+<br><br>
+<script type="text/javascript" src="SeeResults.js"></script>
+<script type="text/javascript" src="WhosThere.js"></script>
+</body>
+</html>

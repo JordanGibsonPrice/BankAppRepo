@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<checkstyle version="1.5.6">
+  <file name="/Users/Delano/Desktop/1802java-nick-week1java-JordanGibsonPrice/Project1/src/main/sass/testing2.css">
+    <error source="StringQuotes" line="1" column="9" length="14" severity="warning" message="Prefer single quoted strings" />
+    <error source="SpaceBeforeBrace" line="13" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAfterPropertyColon" line="14" column="3" length="14" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="15" column="3" length="11" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="ColorKeyword" line="15" column="9" length="5" severity="warning" message="Color `white` should be written in hexadecimal form as `#ffffff`" />
+    <error source="ColorVariable" line="15" column="9" length="5" severity="warning" message="Color literals like `white` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceAfterPropertyColon" line="16" column="3" length="17" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="EmptyLineBetweenBlocks" line="17" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="18" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAfterPropertyColon" line="19" column="3" length="13" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="EmptyLineBetweenBlocks" line="20" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SingleLinePerSelector" line="21" column="1" length="1" severity="warning" message="Each selector in a comma sequence should be on its own single line" />
+    <error source="SingleLinePerSelector" line="21" column="1" length="1" severity="warning" message="Each selector in a comma sequence should be on its own single line" />
+    <error source="SingleLinePerSelector" line="21" column="1" length="1" severity="warning" message="Each selector in a comma sequence should be on its own single line" />
+    <error source="SpaceBeforeBrace" line="21" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAfterPropertyColon" line="22" column="3" length="8" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="23" column="3" length="18" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="24" column="3" length="15" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="EmptyLineBetweenBlocks" line="25" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="26" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAfterPropertyColon" line="27" column="3" length="13" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="EmptyLineBetweenBlocks" line="28" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="29" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAfterPropertyColon" line="30" column="3" length="27" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="TrailingWhitespace" line="31" column="1" length="1" severity="warning" message="Line contains trailing whitespace" />
+    <error source="EmptyLineBetweenBlocks" line="33" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="34" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAfterPropertyColon" line="35" column="3" length="14" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="36" column="3" length="18" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="PropertySortOrder" line="37" column="3" length="10" severity="warning" message="Properties should be ordered background, border-radius, color, height, line-height, margin-left, position, text-align, top, transform, transition, width" />
+    <error source="SpaceAfterPropertyColon" line="37" column="3" length="10" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="38" column="3" length="11" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="39" column="3" length="17" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="40" column="3" length="17" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="41" column="3" length="8" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="42" column="3" length="11" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="ColorKeyword" line="42" column="9" length="5" severity="warning" message="Color `white` should be written in hexadecimal form as `#ffffff`" />
+    <error source="ColorVariable" line="42" column="9" length="5" severity="warning" message="Color literals like `white` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceAfterPropertyColon" line="43" column="3" length="17" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="44" column="3" length="16" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="45" column="3" length="28" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterComma" line="45" column="26" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="SpaceAfterComma" line="45" column="28" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="46" column="3" length="35" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="EmptyLineBetweenBlocks" line="47" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="48" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAfterPropertyColon" line="49" column="3" length="12" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="EmptyLineBetweenBlocks" line="50" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="51" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="EmptyLineBetweenBlocks" line="53" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="54" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="57" column="3" length="12" severity="warning" message="Properties should be ordered background, display, height, left, margin-left, margin-top, position, top, transition, width" />
+    <error source="SpaceAfterPropertyColon" line="57" column="3" length="12" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="58" column="3" length="14" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="59" column="3" length="16" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="ColorKeyword" line="59" column="14" length="5" severity="warning" message="Color `white` should be written in hexadecimal form as `#ffffff`" />
+    <error source="ColorVariable" line="59" column="14" length="5" severity="warning" message="Color literals like `white` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceAfterPropertyColon" line="60" column="3" length="13" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="61" column="3" length="17" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="62" column="3" length="7" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="63" column="3" length="8" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="64" column="3" length="21" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAroundOperator" line="64" column="16" length="8" severity="warning" message="`$width/2` should be written with a single space on each side of the operator: `$width / 2`" />
+    <error source="SpaceAfterPropertyColon" line="65" column="3" length="21" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAroundOperator" line="65" column="15" length="9" severity="warning" message="`$height/2` should be written with a single space on each side of the operator: `$height / 2`" />
+    <error source="SpaceAfterPropertyColon" line="66" column="3" length="26" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="EmptyLineBetweenBlocks" line="67" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="EmptyLineBetweenBlocks" line="69" column="1" length="1" severity="warning" message="Rule declaration should be preceded by an empty line" />
+    <error source="SpaceBeforeBrace" line="69" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAfterPropertyColon" line="70" column="3" length="46" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterComma" line="70" column="26" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="SpaceAfterComma" line="70" column="46" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="EmptyLineBetweenBlocks" line="71" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="72" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAfterPropertyColon" line="73" column="3" length="28" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterComma" line="73" column="26" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="SpaceAfterComma" line="73" column="28" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="EmptyLineBetweenBlocks" line="74" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="75" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAfterPropertyColon" line="76" column="3" length="45" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterComma" line="76" column="26" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="SpaceAfterComma" line="76" column="45" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="EmptyLineBetweenBlocks" line="77" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="78" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="79" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="TrailingWhitespace" line="80" column="1" length="1" severity="warning" message="Line contains trailing whitespace" />
+    <error source="SpaceAfterPropertyColon" line="80" column="5" length="42" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterComma" line="80" column="28" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="SpaceAfterComma" line="80" column="30" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="EmptyLineBetweenBlocks" line="81" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="82" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAfterPropertyColon" line="83" column="5" length="41" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterComma" line="83" column="28" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="SpaceAfterComma" line="83" column="30" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="LeadingZero" line="83" column="40" length="3" severity="warning" message="`0.1` should be written without a leading zero as `.1`" />
+    <error source="SpaceAfterComma" line="83" column="43" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="EmptyLineBetweenBlocks" line="84" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="85" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="TrailingWhitespace" line="86" column="1" length="1" severity="warning" message="Line contains trailing whitespace" />
+    <error source="SpaceAfterPropertyColon" line="86" column="5" length="43" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterComma" line="86" column="28" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="SpaceAfterComma" line="86" column="30" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="EmptyLineBetweenBlocks" line="88" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="89" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="93" column="3" length="17" severity="warning" message="Properties should be ordered box-sizing, font-size, height, left, margin-left, padding-left, padding-top, position, text-align, width" />
+    <error source="SpaceAfterPropertyColon" line="93" column="3" length="17" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="94" column="3" length="8" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="95" column="3" length="21" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAroundOperator" line="95" column="16" length="8" severity="warning" message="`$width/2` should be written with a single space on each side of the operator: `$width / 2`" />
+    <error source="SpaceAfterPropertyColon" line="96" column="3" length="16" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="97" column="3" length="21" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAroundOperator" line="97" column="16" length="8" severity="warning" message="`$width/2` should be written with a single space on each side of the operator: `$width / 2`" />
+    <error source="SpaceAfterPropertyColon" line="98" column="3" length="12" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="99" column="3" length="14" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="100" column="3" length="21" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="101" column="3" length="14" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="102" column="3" length="15" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="MergeableSelector" line="106" column="1" length="1" severity="warning" message="Merge rule `.menu-item` with rule on line 51" />
+    <error source="SpaceBeforeBrace" line="106" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="107" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAfterPropertyColon" line="108" column="5" length="16" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="ColorKeyword" line="108" column="16" length="5" severity="warning" message="Color `white` should be written in hexadecimal form as `#ffffff`" />
+    <error source="ColorVariable" line="108" column="16" length="5" severity="warning" message="Color literals like `white` should only be used in variable declarations; they should be referred to via variable everywhere else." />
+    <error source="SpaceAfterPropertyColon" line="109" column="5" length="9" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="EmptyLineBetweenBlocks" line="110" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="111" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceBeforeBrace" line="112" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAroundOperator" line="112" column="19" length="4" severity="warning" message="`$i+2` should be written with a single space on each side of the operator: `$i + 2`" />
+    <error source="SpaceAfterPropertyColon" line="113" column="7" length="36" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAroundOperator" line="113" column="27" length="16" severity="warning" message="`10ms+(60ms*($i))` should be written with a single space on each side of the operator: `10ms +( 60ms*($i)`" />
+    <error source="SpaceAroundOperator" line="113" column="33" length="9" severity="warning" message="`60ms*($i)` should be written with a single space on each side of the operator: `60ms *( $i`" />
+    <error source="SpaceBeforeBrace" line="118" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="120" column="3" length="9" severity="warning" message="Properties should be ordered cursor, transform, transition-duration, transition-timing-function, z-index" />
+    <error source="SpaceAfterPropertyColon" line="120" column="3" length="9" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="121" column="3" length="67" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="LeadingZero" line="121" column="43" length="5" severity="warning" message="`0.175` should be written without a leading zero as `.175`" />
+    <error source="LeadingZero" line="121" column="50" length="5" severity="warning" message="`0.885` should be written without a leading zero as `.885`" />
+    <error source="LeadingZero" line="121" column="57" length="5" severity="warning" message="`0.320` should be written without a leading zero as `.320`" />
+    <error source="SpaceAfterPropertyColon" line="122" column="3" length="25" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="123" column="3" length="43" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterComma" line="123" column="22" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="SpaceAfterComma" line="123" column="41" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="SpaceAfterComma" line="123" column="43" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="124" column="3" length="14" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="EmptyLineBetweenBlocks" line="125" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="SpaceBeforeBrace" line="126" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAfterPropertyColon" line="127" column="3" length="43" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterComma" line="127" column="22" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="SpaceAfterComma" line="127" column="41" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="SpaceAfterComma" line="127" column="43" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="EmptyLineBetweenBlocks" line="128" column="1" length="1" severity="warning" message="Rule declaration should be followed by an empty line" />
+    <error source="MergeableSelector" line="129" column="1" length="1" severity="warning" message="Merge rule `.menu-open:checked+.menu-open-button` with rule on line 78" />
+    <error source="SpaceBeforeBrace" line="129" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="PropertySortOrder" line="130" column="3" length="33" severity="warning" message="Properties should be ordered transform, transition-duration, transition-timing-function" />
+    <error source="SpaceAfterPropertyColon" line="130" column="3" length="33" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="131" column="3" length="25" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAfterPropertyColon" line="132" column="3" length="43" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="LeadingZero" line="132" column="19" length="3" severity="warning" message="`0.8` should be written without a leading zero as `.8`" />
+    <error source="SpaceAfterComma" line="132" column="22" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="LeadingZero" line="132" column="23" length="3" severity="warning" message="`0.8` should be written without a leading zero as `.8`" />
+    <error source="SpaceAfterComma" line="132" column="41" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="SpaceAfterComma" line="132" column="43" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="SpaceBeforeBrace" line="135" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAfterPropertyColon" line="136" column="3" length="67" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="LeadingZero" line="136" column="43" length="5" severity="warning" message="`0.935` should be written without a leading zero as `.935`" />
+    <error source="LeadingZero" line="136" column="50" length="5" severity="warning" message="`0.000` should be written without a leading zero as `.000`" />
+    <error source="UnnecessaryMantissa" line="136" column="50" length="5" severity="warning" message="`0.000` should be written without the mantissa as `0`" />
+    <error source="LeadingZero" line="136" column="57" length="5" severity="warning" message="`0.340` should be written without a leading zero as `.340`" />
+    <error source="SpaceBeforeBrace" line="137" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAroundOperator" line="138" column="14" length="23" severity="warning" message="`$pi - $opening-angle)/2` should be written with a single space on each side of the operator: `$pi - $opening-angle) / 2`" />
+    <error source="SpaceAroundOperator" line="138" column="14" length="70" severity="warning" message="`$pi - $opening-angle)/2)+(($opening-angle/($menu-items - 1))*($i - 1))` should be written with a single space on each side of the operator: `$pi - $opening-angle)/2) +(( $opening-angle/($menu-items - 1))*($i - 1)`" />
+    <error source="SpaceAroundOperator" line="138" column="41" length="32" severity="warning" message="`$opening-angle/($menu-items - 1)` should be written with a single space on each side of the operator: `$opening-angle /( $menu-items - 1`" />
+    <error source="SpaceAroundOperator" line="138" column="41" length="42" severity="warning" message="`$opening-angle/($menu-items - 1))*($i - 1)` should be written with a single space on each side of the operator: `$opening-angle/($menu-items - 1)) *( $i - 1`" />
+    <error source="TrailingWhitespace" line="139" column="1" length="1" severity="warning" message="Line contains trailing whitespace" />
+    <error source="SpaceBeforeBrace" line="140" column="1" length="1" severity="warning" message="Opening curly brace `{` should be preceded by one space" />
+    <error source="SpaceAroundOperator" line="140" column="19" length="4" severity="warning" message="`$i+2` should be written with a single space on each side of the operator: `$i + 2`" />
+    <error source="PropertySortOrder" line="141" column="7" length="34" severity="warning" message="Properties should be ordered transform, transition-duration" />
+    <error source="SpaceAfterPropertyColon" line="141" column="7" length="34" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAroundOperator" line="141" column="27" length="14" severity="warning" message="`80ms+(80ms*$i)` should be written with a single space on each side of the operator: `80ms +( 80ms*$i`" />
+    <error source="SpaceAroundOperator" line="141" column="33" length="7" severity="warning" message="`80ms*$i` should be written with a single space on each side of the operator: `80ms * $i`" />
+    <error source="SpaceAfterPropertyColon" line="142" column="7" length="78" severity="warning" message="Colon after property should be followed by one space" />
+    <error source="SpaceAroundOperator" line="142" column="29" length="26" severity="warning" message="`cos($angle)*$open-distance` should be written with a single space on each side of the operator: `cos($angle) * $open-distance`" />
+    <error source="SpaceAfterComma" line="142" column="55" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+    <error source="SpaceAroundOperator" line="142" column="56" length="26" severity="warning" message="`sin($angle)*$open-distance` should be written with a single space on each side of the operator: `sin($angle) * $open-distance`" />
+    <error source="SpaceAfterComma" line="142" column="82" length="1" severity="warning" message="Commas in function arguments should be followed by one space" />
+  </file>
+</checkstyle>

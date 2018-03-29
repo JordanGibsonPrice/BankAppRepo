@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>TRMS</title>
+<script src="resources/main.js"></script>
+<script src="resources/jquery.js"></script>
+<link type="text/css" rel="stylesheet" href="main.css"/>
+<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<ul class='nav'>
+            <li><a class='active'>Apply for Tuition Reimbursement</a></li>
+            <li><a href='Accounting.html'>Create an Account</a></li>
+			<li><a href='Display.html'>Get Information</a></li>
+			<li><a href='UserLogin.html'>Log Out</a></li>
+		</ul>
+	<h1>Apply here</h1>
+	<form method="post" action="RegisterApplication" id="this_form">
+		<ul style="list-style-type: none">
+			<li>When will your event start?</li>
+			<li><input type="date" name="eventDate" min="2018-04-06" required></li>
+			<li>
+          	<textarea form="this_form" name="description" class="form-control status-box" rows="2" placeholder="Briefly describe the training you'll be undertaking. Conclude with the time off needed for this training."></textarea>
+     			 <div class="button-group pull-right">
+        			</div>
+        		</li>
+			<li>Amount of Reimbursement applied for:</li>
+			<li><input type="number" name="expense" placeholder="Expense" max="1000" required></li>
+			<li>Talk about why training is necessary.</li>
+			<li>
+			<textarea form="this_form" name="justification" class="form-control status-box" rows="5" placeholder="Talk about why training is necessary."></textarea>
+     			 <div class="button-group pull-right">
+        			</div>
+        		</li>
+        		<li>Please choose one of each of the following</li>
+<!--         		<li>1. University Course</li>
+        		<li>2. Seminar</li>
+        		<li>3. Certification Prep</li>
+        		<li>4. Certification</li>
+        		<li>5. Tech Training</li>
+        		<li>6. Other</li>
+        		<input name="eventType" type="number" min="1" max="6" required> -->
+        		<select name="eventType">
+    				<option value="1">University Course</option>
+   				<option value="2">Seminar</option>
+    				<option value="3">Certification Prep</option>
+    				<option value="4">Certification</option>
+    				<option value="5">Tech Training</option>
+    				<option value="6">Other</option>
+  			</select>
+        		<select name="eventLocus">
+    				<option value="Reston">Reston</option>
+   				<option value="Herndon">Herndon</option>
+    				<option value="Tampa">Tampa</option>
+  			</select>
+  			<select name="requestDuration">
+    				<option value="1-4 week(s)">1-4 week(s)</option>
+   				<option value="4-10 weeks">4-10 weeks</option>
+    				<option value="Over 10 weeks">Over 10 weeks? Are you going for a sabbatical?</option>
+    				<option value="2 years">Do you even want to work here anymore?</option>
+  			</select>
+
+			<li><input type="reset" value="reset"></li>
+			<li><input type="submit" value="submit"></li>
+		</ul>
+	</form>
+	<form method="post" action="DeliverContent">
+	<li>Do have a media file to accompany your application?</li>
+	<div class="form-group">
+		    <label for="content" class="col-sm-4 control-label">Content</label>
+		    <div class="col-sm-5">
+		      <input type="file" class="form-control" id="content" name="content" placeholder="Content" required="required" value="content"/>
+		      <input type="submit" value="submit">
+		    </div>
+		  </div>
+	</form>
+	<!-- <script>
+	var main = function() {
+		  $('.btn').click(function() {
+			    var post = $('.status-box').val();
+			    $('<li>').text(post).prependTo('.posts');
+			    $('.status-box').val('');
+			    $('.counter').text('2500');
+			    $('.btn').addClass('disabled');
+			  });
+
+			  $('.status-box').keyup(function() {
+			    var postLength = $(this).val().length;
+			    var charactersLeft = 2500 - postLength;
+			    $('.counter').text(charactersLeft);
+
+			    if(charactersLeft < 0) {
+			      $('.btn').addClass('disabled');
+			    }
+			    else if(charactersLeft == 300) {
+			      $('.btn').addClass('disabled');
+			    }
+			    else {
+			      $('.btn').removeClass('disabled');
+			    }
+			  }
+			  );
+			  }</script> -->
+</body>
+</html>
